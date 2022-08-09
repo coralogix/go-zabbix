@@ -81,7 +81,7 @@ type Host struct {
 	Description string `json:"description"`
 
 	// Inventory mode
-	InventoryMode int `json:"inventory_mode"`
+	InventoryMode string `json:"inventory_mode"`
 
 	// HostID of the proxy managing this host
 	ProxyHostID string `json:"proxy_hostid"`
